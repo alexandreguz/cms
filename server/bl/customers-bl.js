@@ -4,6 +4,13 @@ const getAll = async() => {
     return await customersDal.getAll()
 }
 
+const addCustomer = async() => {
+    return await "add customer"
+}
+
+
 export {
-    getAll
+    getAll,
+    addCustomer
+
 }
