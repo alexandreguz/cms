@@ -8,6 +8,4 @@ const connection = mysql.createConnection({
     database: 'cms'
   });
   
-
-
-    export default connection
+export default connection
